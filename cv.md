@@ -9,48 +9,37 @@
 [Telegram](https://t.me/d_ont_worry_behappy)
 
 
-About Me:
-Having started my career as a layout designer in a local newspaper with minimum skills, I became profficient in printing design.
-My keen interest in printing technologies led me to working as a Prepress and DTP Engineer in the largest printing house in my city,
-where I continued self-learning, examining the process of creating wine and food labels, magazines and other printed goods.
+### About Me:
+My acquaintance with the field of development and programming began with admission to the specialty of computer science and English at BSU. Even then I understood, that the computer technologies are our future, although back then in 2000 they were just beginning to develop in our country.
+After graduating from the university, I was engaged in various activities, one way or another related to my major. And after 2011, I became interested in creating websites and then made her first own website.
+Then I went into teaching, this is my main major, and taught maths, and later robotics.
+And I began to learn programming when I got a job as a programming teacher for children, which I still do. At the same time I studied algorithms and various programming languages ​​and taught them to children at a private school, and then online.
+Since then, programming has become a part of my life forever and I was most interested in the opportunity to create websites with my own hands, from simple landing pages to multi-page cool applications.
+What I have been studying at the present time, independently and in courses. As a teacher myself, I know and understand, how important it is to constantly develop and acquire new knowledge, especially their application in practice.
+I believe that my dedication, love for knowledge and perseverance will help me become a great Frontend developer. 
+Thank you all for your attention.
 
-Three years ago I’ve become passionate about retouching. I’ve mastered different retouching techniques,
-learned to work with graphic tablet, become an advanced Photoshop user and found my first job as a retoucher.
+### Skills and Proficiency:
+* HTML5, CSS3, CSS Flex, CSS Grid
+* JavaScript Basics, React, Redux
+* Git, GitHub, GitLab
+* VS Code
+* Figma
 
-Remote work as a retoucher gives me extra free time, which I spend learning Frontend Development.
-I’m interested in Web Development because this occupation provides endless possibilities for professional growth,
-besides there’s a huge amount of free high quality resources for self-education and a large community of developers.
+### Code example:
 
-I believe, that my ability to learn and to gain new skills will lead me through this path of becoming a proficient Frontend Developer.
-
-Skills and Proficiency:
-HTML5, CSS3
-JavaScript Basics
-Git, GitHub
-VS Code, IntelliJ IDEA
-Adobe Photoshop, Illustrator, InDesign
-Code example:
-Peak array index KATA from CODEWARS: Given an array of ints, return the index such that the sum of the elements to the right of that index equals the sum of the elements to the left of that index. If there is no such index, return -1. If there is more than one such index, return the left-most index.
-
-function peak(arr) {
-
-  for (let i = 1; i < arr.length - 1; i++) {
-    let leftSum = arr.slice(0, i).reduce((accumulator, currentValue) => accumulator + currentValue);
-    let rightSum = arr.slice(i + 1).reduce((accumulator, currentValue) => accumulator + currentValue);
-    if (leftSum === rightSum) {
-      return i;
-    }
-  }
-  return -1;
+```function multiply(a, b){
+  return a * b
 }
-Courses:
-HTML and CSS Tutorials on the w3schools (completed)
-W3Schools Score
-JavaScript Manual on learnjavascript.ru (in progress)
-RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
-Languages:
-English - Intermediate/Upper-intermediate (according to the online test at EFset Logo www.efset.org)
-EFset Score
-Russian - Native
-Ukrainian - Intermediate
-Polish - Basic
+```
+
+### Courses:
+* Innopolis University Fundamentals of Frontend Development course (diploma with honor)
+* HTML Academy Frontend Introduction course (completed)
+* JavaScript Manual on learnjavascript.ru (in progress)
+* RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+
+### Languages:
+* English - Intermediate (according to the online test at EFset)
+* Russian - Native
+* Spanish - Basic
