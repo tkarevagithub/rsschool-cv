@@ -1,5 +1,5 @@
 [rsschool-cv](https://tkarevagithub.github.io/rsschool-cv/)
-# Tatyana Shavlovskya
+# Tatyana Shavlovskaya
 
 ### Junior Frontend Developer
 
