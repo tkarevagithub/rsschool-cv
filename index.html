@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,23 +8,25 @@
   <meta name="author" content="Tatyana Shavlovskaya">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="container">
         <nav class="nav container__nav">
             <!--Menu with links-->
-            <ul>
-                <li><a href="#about" class="link"></a >About Me</li>
-                <li><a href="#educ" class="link"></a >Education</li>
-                <li><a href="#courses" class="link"></a >Courses</li>
-                <li><a href="#code" class="link"></a >Code example</li>
-            </ul>
+                <a href="#about" class="link link_active">About Me</a >
+                <a href="#educ" class="link">Education</a >
+                <a href="#courses" class="link">Courses</a >
+                <a href="#cont" class="link">Contacts</a >
+                <a href="#skills" class="link">Skills</a >
+                <a href="#lang" class="link">Languages</a >
+                <a href="#code" class="link">Code example</a > 
+                <a href="#proj" class="link">Projects</a > 
         </nav>
         <div class="columns">
-            <div class="left-column container__left">
+            <div class="left columns__left">
                 <header class="header">
-                    <img src="img\photo.jpg" alt="photo" width="200">
+                    <img src="./img/photo.jpg" alt="photo" class="header__img" width="200" >
                     <h1>Tatyana Shavlovskaya</h1>
                     <h2>Junior Frontend Developer</h2>
                 </header>
@@ -35,25 +37,30 @@
                             <li>+7 980 334 3222</li>
                             <li>tkareva2011@gmail.com</li>
                             <li><a href="https://t.me/d_ont_worry_behappy">Telegram</a></li>
+                            <li>tatyana_k (tkarevagithub)#4248</li>
                         </ul>
                     </section>
                     <section class="skill">
                         <h3>Skills and Proficiency</h3>
-                        <li>HTML5, CSS3, CSS Flex, CSS Grid</li>
-                        <li>JavaScript Basics, React, Redux</li>
-                        <li>Git, GitHub, GitLab</li>
-                        <li>VS Code</li>
-                        <li>Figma</li>
+                        <ul>
+                            <li>HTML5, CSS3, CSS Flex, CSS Grid</li>
+                            <li>JavaScript Basics, React, Redux</li>
+                            <li>Git, GitHub, GitLab</li>
+                            <li>VS Code</li>
+                            <li>Figma, Canva</li>
+                        </ul>
                     </section>
                     <section class="lang">
                         <h3>Languages</h3>
-                        <li>English - Intermediate (according to the online test at EFset)</li>
-                        <li>Russian - Native</li>
-                        <li>Spanish - Basic</li>
+                        <ul>
+                            <li>English - Intermediate (according to the online test at EFset)</li>
+                            <li>Russian - Native</li>
+                            <li>Spanish - Basic</li>
+                        </ul>
                     </section>
                 </main>
             </div>
-            <div class="right-column container__right">
+            <div class="right columns__right">
                 <section class="about">
                     <h2>About Me</h2>
                     <p>
@@ -88,16 +95,23 @@
                 </section>
                 <section class="code-example">
                     <h2>Code example</h2>
-                    <p>
-                        function multiply(a, b){
+                    <code>
+                         function multiply(a, b){
                             return a * b
-                          }
-                    </p>
+                          } 
+                    </code>
                 </section>   
+                <section class="projects">
+                    <h2>Projects</h2>
+                    <ul>
+                        <li><a href="" target="_blank">MyMarket</a> </li>
+                        <li><a href="https://tkarevagithub.github.io/rsschool-cv/cv" target="_blank">CV</a></li>
+                    </ul>
+                </section>
             </div>
         </div>
         <footer class="footer container__footer">
-            
+
 
         </footer>
     </div>
