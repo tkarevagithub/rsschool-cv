@@ -8,7 +8,7 @@
   <meta name="author" content="Tatyana Shavlovskaya">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <div class="container">
@@ -31,37 +31,59 @@
                     <h2>Junior Frontend Developer</h2>
                 </header>
                 <main class="main">
-                    <section class="contact">
+                    <section class="contact" id="cont">
                         <h3>Contact information</h3>
-                        <ul>
-                            <li>+7 980 334 3222</li>
-                            <li>tkareva2011@gmail.com</li>
-                            <li><a href="https://t.me/d_ont_worry_behappy">Telegram</a></li>
-                            <li>tatyana_k (tkarevagithub)#4248</li>
+                        <ul class="list">
+                            <li>
+                                <img src="./img/phone-call-icon.svg" alt="tel" width="10">
+                                <a href="tel:7980334322" class="list__link"> +7 980 334 3222</a>
+                            </li>
+                            <li>
+                                <img src="./img/email-address-icon.svg" alt="tel" width="10">
+                                <a href="mailto:tkareva2011@gmail.com" class="list__link"> tkareva2011@gmail.com</a>
+                            </li>
+                            <li>
+                                <img src="./img/telegram-black-icon.svg" alt="tel" width="10">
+                                <a href="https://t.me/d_ont_worry_behappy" target="_blank" class="list__link"> Telegram</a>
+                            </li>
+                            <li>
+                                <img src="./img/discord-round-black-icon.svg" alt="tel" width="10">
+                                <a href="https://discordapp.com/users/673834096509583360/" target="_blank" class="list__link"> tatyana_k (tkarevagithub)#4248</a>
+                            </li>
                         </ul>
                     </section>
-                    <section class="skill">
+                    <section class="skill" id="skills">
                         <h3>Skills and Proficiency</h3>
-                        <ul>
-                            <li>HTML5, CSS3, CSS Flex, CSS Grid</li>
-                            <li>JavaScript Basics, React, Redux</li>
-                            <li>Git, GitHub, GitLab</li>
-                            <li>VS Code</li>
-                            <li>Figma, Canva</li>
+                        <ul class="list">
+                            <li>
+                                <img src="./img/html-svgrepo-com.svg" alt="html icon" width="10"> HTML5, CSS3, CSS Flex, CSS Grid
+                            </li>
+                            <li>
+                                <img src="./img/javascript-svgrepo-com.svg" alt="js icon" width="10"> JavaScript Basics, React, Redux
+                            </li>
+                            <li>
+                                <img src="./img/git-svgrepo-com.svg" alt="git icon" width="10"> Git, GitHub, GitLab
+                            </li>
+                            <li>
+                                <img src="./img/vscode-fill-svgrepo-com.svg" alt="vscode icon" width="10"> VS Code
+                            </li>
+                            <li>
+                                <img src="./img/figma-svgrepo-com.svg" alt="figma icon" width="10"> Figma, Canva
+                            </li>
                         </ul>
                     </section>
-                    <section class="lang">
+                    <section class="lang" id="lang">
                         <h3>Languages</h3>
-                        <ul>
-                            <li>English - Intermediate (according to the online test at EFset)</li>
-                            <li>Russian - Native</li>
-                            <li>Spanish - Basic</li>
+                        <ul class="list">
+                            <li><b>English</b> - Intermediate (according to the online test at EFset)</li>
+                            <li><b>Russian</b> - Native</li>
+                            <li><b>Spanish</b> - Basic</li>
                         </ul>
                     </section>
                 </main>
             </div>
             <div class="right columns__right">
-                <section class="about">
+                <section class="about" id="about">
                     <h2>About Me</h2>
                     <p>
                         My acquaintance with the field of development and programming began with admission to the specialty of computer science and English at BSU. Even then I understood, that the computer technologies are our future, although back then in 2000 they were just beginning to develop in our country.
@@ -78,13 +100,13 @@
                         Thank you all for your attention.
                     </p>
                 </section>
-                <section class="education">
+                <section class="education" id="educ">
                     <h2>Education</h2>
                     <p>
                         Bryansk State University
                     </p>
                 </section>
-                <section class="courses">
+                <section class="courses" id="courses">
                     <h2>Courses</h2>
                     <ul>
                         <li>Innopolis University Fundamentals of Frontend Development course (diploma with honor)</li>
@@ -93,7 +115,7 @@
                         <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
                     </ul>
                 </section>
-                <section class="code-example">
+                <section class="code-example" id="code">
                     <h2>Code example</h2>
                     <code>
                          function multiply(a, b){
@@ -101,18 +123,30 @@
                           } 
                     </code>
                 </section>   
-                <section class="projects">
+                <section class="projects" id="proj">
                     <h2>Projects</h2>
                     <ul>
-                        <li><a href="" target="_blank">MyMarket</a> </li>
+                        <li><a href="https://gitlab.com/tkarevagithub/innopolis" target="_blank">MyMarket</a> </li>
                         <li><a href="https://tkarevagithub.github.io/rsschool-cv/cv" target="_blank">CV</a></li>
                     </ul>
                 </section>
             </div>
         </div>
         <footer class="footer container__footer">
-
-
+            <div class="footer__github">
+                <a href="https://github.com/tkarevagithub" class="mygithub">
+                    <img src="./img/github.svg" alt="github svg" width="30" height="30"> tkarevagithub
+                </a>
+            </div>
+            <div class="footer__rsschool">    
+                <a href="https://rs.school/js/" class="rsschool"><img src="./img/rs_school_js.svg" alt="rsschool" width="50" height="30"></a>  
+            </div>
+            <div class="footer__year">
+                <p>2022 - 2023</p>
+            </div>
+            <div>
+            <a href="#top" class="footer__to-top">Наверх</a>
+            </div>
         </footer>
     </div>
 
