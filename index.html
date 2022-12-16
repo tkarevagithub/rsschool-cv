@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,9 +8,151 @@
   <meta name="author" content="Tatyana Shavlovskaya">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <div class="container">
+        <nav class="nav container__nav">
+            <!--Menu with links-->
+                <a href="#about" class="link link_active">About Me</a >
+                <a href="#educ" class="link">Education</a >
+                <a href="#courses" class="link">Courses</a >
+                <a href="#cont" class="link">Contacts</a >
+                <a href="#skills" class="link">Skills</a >
+                <a href="#lang" class="link">Languages</a >
+                <a href="#code" class="link">Code example</a > 
+                <a href="#proj" class="link">Projects</a > 
+        </nav>
+        <div class="columns">
+            <div class="left columns__left">
+                <header class="header">
+                    <img src="./img/photo.jpg" alt="photo" class="header__img" width="200" >
+                    <h1>Tatyana Shavlovskaya</h1>
+                    <h2>Junior Frontend Developer</h2>
+                </header>
+                <main class="main">
+                    <section class="contact" id="cont">
+                        <h3>Contact information</h3>
+                        <ul class="list">
+                            <li>
+                                <img src="./img/phone-call-icon.svg" alt="tel" width="10">
+                                <a href="tel:7980334322" class="list__link"> +7 980 334 3222</a>
+                            </li>
+                            <li>
+                                <img src="./img/email-address-icon.svg" alt="tel" width="10">
+                                <a href="mailto:tkareva2011@gmail.com" class="list__link"> tkareva2011@gmail.com</a>
+                            </li>
+                            <li>
+                                <img src="./img/telegram-black-icon.svg" alt="tel" width="10">
+                                <a href="https://t.me/d_ont_worry_behappy" target="_blank" class="list__link"> Telegram</a>
+                            </li>
+                            <li>
+                                <img src="./img/discord-round-black-icon.svg" alt="tel" width="10">
+                                <a href="https://discordapp.com/users/673834096509583360/" target="_blank" class="list__link"> tatyana_k (tkarevagithub)#4248</a>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="skill" id="skills">
+                        <h3>Skills and Proficiency</h3>
+                        <ul class="list">
+                            <li>
+                                <img src="./img/html-svgrepo-com.svg" alt="html icon" width="10"> HTML5, CSS3, CSS Flex, CSS Grid
+                            </li>
+                            <li>
+                                <img src="./img/javascript-svgrepo-com.svg" alt="js icon" width="10"> JavaScript Basics, React, Redux
+                            </li>
+                            <li>
+                                <img src="./img/git-svgrepo-com.svg" alt="git icon" width="10"> Git, GitHub, GitLab
+                            </li>
+                            <li>
+                                <img src="./img/vscode-fill-svgrepo-com.svg" alt="vscode icon" width="10"> VS Code
+                            </li>
+                            <li>
+                                <img src="./img/figma-svgrepo-com.svg" alt="figma icon" width="10"> Figma, Canva
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="lang" id="lang">
+                        <h3>Languages</h3>
+                        <ul class="list">
+                            <li><b>English</b> - Intermediate (according to the online test at EFset)</li>
+                            <li><b>Russian</b> - Native</li>
+                            <li><b>Spanish</b> - Basic</li>
+                        </ul>
+                    </section>
+                </main>
+            </div>
+            <div class="right columns__right">
+                <section class="about" id="about">
+                    <h2>About Me</h2>
+                    <p>
+                        My acquaintance with the field of development and programming began with admission to the specialty of computer science and English at BSU. Even then I understood, that the computer technologies are our future, although back then in 2000 they were just beginning to develop in our country.
+                        After graduating from the university, I was engaged in various activities, one way or another related to my major. And after 2011, I became interested in creating websites and then made her first own website.
+                        Then I went into teaching, this is my main major, and taught maths, and later robotics.
+                    </p>
+                    <p>
+                        And I began to learn programming when I got a job as a programming teacher for children, which I still do. At the same time I studied algorithms and various programming languages ​​and taught them to children at a private school, and then online.
+                        Since then, programming has become a part of my life forever and I was most interested in the opportunity to create websites with my own hands, from simple landing pages to multi-page cool applications.
+                        What I have been studying at the present time, independently and in courses. As a teacher myself, I know and understand, how important it is to constantly develop and acquire new knowledge, especially their application in practice.
+                        I believe that my dedication, love for knowledge and perseverance will help me become a great Frontend developer. 
+                    </p>
+                    <p>
+                        Thank you all for your attention.
+                    </p>
+                </section>
+                <section class="education" id="educ">
+                    <h2>Education</h2>
+                    <p>
+                        Bryansk State University
+                    </p>
+                </section>
+                <section class="courses" id="courses">
+                    <h2>Courses</h2>
+                    <ul>
+                        <li>Innopolis University Fundamentals of Frontend Development course (diploma with honor)</li>
+                        <li>HTML Academy Frontend Introduction course (completed)</li>
+                        <li>JavaScript Manual on learnjavascript.ru (in progress)</li>
+                        <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+                    </ul>
+                </section>
+                <section class="code-example" id="code">
+                    <h2>Code example</h2>
+                    <pre>
+                        <code>
+                            function multiply(a, b){
+                               return a * b
+                             } 
+                       </code>
+                    </pre>
+                </section>   
+                <section class="projects" id="proj">
+                    <h2>Projects</h2>
+                    <ul>
+                        <li><a href="https://gitlab.com/tkarevagithub/innopolis" target="_blank">MyMarket</a> </li>
+                        <li><a href="https://tkarevagithub.github.io/rsschool-cv/cv" target="_blank">CV</a></li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+        <footer class="footer container__footer">
+            <div class="footer__github">
+                <a href="https://github.com/tkarevagithub" class="mygithub">
+                    <img src="./img/github.svg" alt="github svg" width="30" height="30"> tkarevagithub
+                </a>
+            </div>
+            <div class="footer__rsschool">    
+                <a href="https://rs.school/js/" class="rsschool"><img src="./img/rs_school_js.svg" alt="rsschool" width="50" height="30"></a>  
+            </div>
+            <div class="footer__year">
+                <p>2022 - 2023</p>
+            </div>
+            <div>
+            <a href="#top" class="footer__to-top">Наверх</a>
+            </div>
+        </footer>
+    </div>
+
+
   <script src="js/scripts.js"></script>
 </body>
 </html>
