@@ -24,7 +24,7 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1vw;
 }
 .link:hover {
     background-color: #4C514A;
@@ -42,7 +42,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 1000px;
+    /* width: 1000px; */
+    width: 15vw;
     gap: 10px;
     padding: 0 10px 0 10px;
 
@@ -56,6 +57,7 @@ body {
     gap: 10px;
     padding: 0 10px 0 10px;
     line-height: 20px;
+    width: 50vw;
 
 }
 .header {
@@ -96,4 +98,8 @@ body {
 }
 .footer__to-top {
     color: #D5D5D5;
+}
+
+@media screen and (max-width: 1199px) {
+    
 }
